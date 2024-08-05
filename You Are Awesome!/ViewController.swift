@@ -22,6 +22,10 @@ class ViewController: UIViewController {
         print("😎 The message button was pressed!")
         messageLabel.text = "You Are Awesome!"
     }
+    @IBAction func anotherMessageButtonPressed(_ sender: UIButton) {
+        print("🫶 The another message button was pressed!")
+        messageLabel.text = "You Are Great!"
+    }
     
 }
 
